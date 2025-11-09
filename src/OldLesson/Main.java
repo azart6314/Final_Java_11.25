@@ -1,3 +1,5 @@
+package OldLesson;
+
 import java.util.Arrays;
 
 public class Main {

@@ -1,3 +1,5 @@
+package OldLesson;
+
 public class MainFirstLess {
     public static void main(String[] args) {
 

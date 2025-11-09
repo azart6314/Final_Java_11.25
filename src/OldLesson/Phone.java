@@ -1,3 +1,5 @@
+package OldLesson;
+
 public class Phone {
 
         String model;
