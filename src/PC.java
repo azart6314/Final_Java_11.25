@@ -23,14 +23,14 @@ public class PC {
         this.resource = resource;
     }
 
-    public void printInfoPC (){
-        System.out.println("Процессор - " + processor );
-        System.out.println("Оперативка - " + ram );
-        System.out.println("Жестки диск - " + hardDrive );
-        System.out.println("Ресурс - " + resource );
+    public void printInfoPC() {
+        System.out.println("Процессор - " + processor);
+        System.out.println("Оперативка - " + ram);
+        System.out.println("Жестки диск - " + hardDrive);
+        System.out.println("Ресурс - " + resource);
     }
 
-    public  void tornOn(){
+    public void tornOn() {
         System.out.println("isBurntOut - " + isBurntOut);
         System.out.println("isWorking - " + isWoking);
         if (isBurntOut) {
@@ -47,14 +47,14 @@ public class PC {
                 System.out.println("Комп сгорел ");
                 isBurntOut = true;
             }
-            if (scannerValue == randomValue){
+            if (scannerValue == randomValue) {
                 System.out.println("Компа включен");
                 isWoking = true;
             }
         }
     }
 
-    public void tornOf(){
+    public void tornOf() {
         System.out.println("isBurntOut - " + isBurntOut);
         System.out.println("isWorking - " + isWoking);
 
@@ -76,12 +76,6 @@ public class PC {
                 isWoking = false;
             }
         }
-
-
-
     }
-
-
-
 
 }

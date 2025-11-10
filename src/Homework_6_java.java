@@ -64,7 +64,7 @@ public class Homework_6_java {
         System.out.println();
         honer.tornOn();
         honer.tornOf();
-
+//ssss
 
 
     }
