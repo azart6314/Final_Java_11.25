@@ -1,7 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+package OldLesson;
 
 public class Lesson3Java {
     public static void main(String[] args) {

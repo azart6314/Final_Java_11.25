@@ -1,4 +1,6 @@
-public class Main {
+package OldLesson;
+
+public class MainFirstLess {
     public static void main(String[] args) {
 
         // Операторы if / else / else if

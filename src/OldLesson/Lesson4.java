@@ -1,7 +1,7 @@
+package OldLesson;
+
 import java.io.IOException;
-import java.util.Random;
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class Lesson4 {
     public static void main(String[] args) throws IOException {
