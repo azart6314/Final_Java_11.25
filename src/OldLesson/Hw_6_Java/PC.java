@@ -1,17 +1,18 @@
-import javax.sound.midi.Soundbank;
+package OldLesson.Hw_6_Java;
+
 import java.util.Random;
 import java.util.Scanner;
 
 public class PC {
 
     String processor;
-    int ram;
-    int hardDrive;
-    int resource;
+    private int ram;
+    private int hardDrive;
+    private int resource;
 
 
-    boolean isWoking;
-    boolean isBurntOut;
+    private boolean isWoking;
+    private boolean isBurntOut;
 
     Scanner scanner = new Scanner(System.in);
     Random random = new Random();
@@ -23,19 +24,25 @@ public class PC {
         this.resource = resource;
     }
 
-    public void printInfoPC() {
+    public void OllMyMetods (){
+        printInfoPC();
+        tornOn();
+        tornOf();
+    }
+
+    private void printInfoPC() {
         System.out.println("Процессор - " + processor);
         System.out.println("Оперативка - " + ram);
         System.out.println("Жестки диск - " + hardDrive);
         System.out.println("Ресурс - " + resource);
     }
 
-    public void tornOn() {
+    private void tornOn() {
         System.out.println("isBurntOut - " + isBurntOut);
         System.out.println("isWorking - " + isWoking);
         if (isBurntOut) {
             System.out.println("Комп сгорел");
-            return;
+            return; // в методе void return возвращает что то и прирывает работу нашего метода
         }
         if (!isWoking && resource > 0) {
             System.out.println("Введите 1 или 0");
@@ -54,7 +61,7 @@ public class PC {
         }
     }
 
-    public void tornOf() {
+    private void tornOf() {
         System.out.println("isBurntOut - " + isBurntOut);
         System.out.println("isWorking - " + isWoking);
 
@@ -74,6 +81,7 @@ public class PC {
             if (randomValue == scannerValue) {
                 System.out.println("Комп выключен");
                 isWoking = false;
+                resource--;
             }
         }
     }

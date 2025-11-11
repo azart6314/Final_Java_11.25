@@ -1,4 +1,4 @@
-package OldLesson;
+package OldLesson.Hw_6_Java;
 
 import java.util.Arrays;
 
