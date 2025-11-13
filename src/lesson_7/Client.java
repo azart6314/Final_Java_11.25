@@ -1,3 +1,5 @@
+package lesson_7;
+
 public class Client extends Worker {
     private String lastName;
 
@@ -16,7 +18,7 @@ public class Client extends Worker {
     //Можно создать класс в классе обходя наследование.
     // Но есть проблема Это не верное описание внутренних класов.
     // Подходит для небольших описаний логики (в основном сортировки)
-    private class ExtendedClient extends Human_7{
+    private class ExtendedClient extends Human_7 {
         public ExtendedClient(String name, int age) {
             super(name, age);
         }

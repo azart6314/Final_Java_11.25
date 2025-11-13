@@ -1,3 +1,5 @@
+package lesson_7;
+
 public class Worker extends Human_7 {
     private int experience;
 

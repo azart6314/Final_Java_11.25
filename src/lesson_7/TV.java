@@ -1,3 +1,5 @@
+package lesson_7;
+
 import java.util.Scanner;
 
 public class TV {

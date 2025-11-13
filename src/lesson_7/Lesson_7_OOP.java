@@ -1,3 +1,5 @@
+package lesson_7;
+
 public class Lesson_7_OOP {
     public static void main(String[] args) {
         Human_7 zhenya = new Human_7("Zenyz", 18);
